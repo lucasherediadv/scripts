@@ -1,7 +1,4 @@
 #!/bin/bash
-#
-# Push changes to remote repository
-
 read -rp "Enter commit message: " commitmessage
 git add .
 git commit -m "$commitmessage"

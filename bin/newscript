@@ -1,19 +1,18 @@
 #!/bin/bash
-#
-# Create a new script in my scripts collection
+
+# creates a new script in my scripts collection
+
+# check if script name is provided
 
 name=$1
 
-if [ -z "$name" ]; then
-  read -rp "Please provide a name for the script: " name
+if [ $# -eq 0 ]; then
+	# ask for name of script
+	echo "Please provide a name for the script"
+	read -r name
 fi
 
 cd "$SCRIPTS" || exit
-touch "$name" && chmod u+x "$name"
-{
-  echo "#!/bin/bash"
-  echo "#"
-  echo "#"
-} >> "$name"
-
-"$EDITOR" "$name"
+touch "$name"
+chmod +x "$name"
+echo "#!/bin/bash" >"$name"
