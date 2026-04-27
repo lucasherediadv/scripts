@@ -1,1 +1,84 @@
-Here you will find a collection of scripts that I have written to improve the management of my operating system.
+# Scripts
+
+A collection of personal scripts written to improve the management of my operating system and streamline common developer tasks.
+
+## Scripts List
+
+- [`branch`](bin/branch): Show current git branch or checkout a new one.
+- [`bullets`](bin/bullets): Join input fields with bullet points.
+- [`cats`](bin/cats): Concatenate the contents of a command's location.
+- [`cdpath`](bin/cdpath): Print `CDPATH` entries on new lines.
+- [`cmt`](bin/cmt): Comment out lines with a prefix (default `#`).
+- [`contrib`](bin/contrib): Display a GitHub contribution graph in the terminal.
+- [`cronoji`](bin/cronoji): Show a clock emoji representing the current time.
+- [`d`](bin/d): A wrapper for the `docker` command.
+- [`ddd`](bin/ddd): Copy standard input to the system clipboard (using `wl-copy`).
+- [`dockerclean`](bin/dockerclean): Remove all stopped Docker containers.
+- [`du1`](bin/du1): Display disk usage of directories in the current folder (shallow).
+- [`duck`](bin/duck): Search DuckDuckGo from the terminal browser.
+- [`echon`](bin/echon): Repeat a string multiple times without a newline.
+- [`extract`](bin/extract): Extract various archive formats (tar, zip, rar, etc.).
+- [`fishies`](bin/fishies): Run `asciiquarium` in the terminal.
+- [`gcm`](bin/gcm): Generate a Git commit message using AI (GPT).
+- [`gdu`](bin/gdu): List all files in a Git repository sorted by size.
+- [`genpw`](bin/genpw): Generate a random ASCII password.
+- [`gists`](bin/gists): List your GitHub gists.
+- [`gitrepos`](bin/gitrepos): Find and list all Git repositories in subdirectories.
+- [`gl`](bin/gl): Display a compact, decorated Git log graph.
+- [`gmi`](bin/gmi): Initialize a Go module with a path based on the current directory.
+- [`goclean`](bin/goclean): Clean Go build, module, and test caches.
+- [`goinstall`](bin/goinstall): Install a Go package with optimized static build flags.
+- [`gpt`](bin/gpt): Query a LLM directly from the terminal using `mods`.
+- [`grepall`](bin/grepall): Recursively search for a pattern in all files, ignoring `.git`.
+- [`gs`](bin/gs): A shortcut for `git status`.
+- [`hasissue`](bin/hasissue): Search and filter GitHub issues by query and state.
+- [`htitle`](bin/htitle): Create a centered, horizontal rule title for comments.
+- [`ipa`](bin/ipa): Show IP addresses in a brief, colorized format.
+- [`ipl`](bin/ipl): Show network interface links in a brief, colorized format.
+- [`ips`](bin/ips): List network interfaces or get the IP address of a specific one.
+- [`isosec`](bin/isosec): Print the current date and time in a compact ISO-like format.
+- [`issue`](bin/issue): View or create GitHub issues.
+- [`issues`](bin/issues): List GitHub issues for the current repository.
+- [`lastmod`](bin/lastmod): List files in the current directory sorted by last modification time.
+- [`len`](bin/len): Sort lines of text by their length.
+- [`lorem`](bin/lorem): Generate paragraphs of Lorem Ipsum placeholder text.
+- [`lslinks`](bin/lslinks): List all symbolic links in the current directory.
+- [`lynx`](bin/lynx): Run the `lynx` web browser with custom configuration.
+- [`md`](bin/md): Render Markdown files in the terminal using `glow`.
+- [`mkvi`](bin/mkvi): Create parent directories before opening a file in the editor.
+- [`moo`](bin/moo): Display a random fortune with a thinking cow (using `cowsay`).
+- [`myip`](bin/myip): Retrieve your external IP address using OpenDNS.
+- [`mytrace`](bin/mytrace): Run `strace` on a command and save the output to `strace.out`.
+- [`newest`](bin/newest): Show the most recently modified file in a directory.
+- [`news`](bin/news): Open the Arch Linux news page in the terminal browser.
+- [`newscript`](bin/newscript): Create a new executable script template in the collection.
+- [`newx`](bin/newx): Create, make executable, and edit a new script.
+- [`origins`](bin/origins): List all remote origin URLs for a Git repository.
+- [`path`](bin/path): Print the system `PATH` entries on separate lines.
+- [`pkglist`](bin/pkglist): List explicitly installed packages, excluding base system ones.
+- [`ppp`](bin/ppp): Print the content of the temporary buffer file (`/tmp/buf`).
+- [`psc`](bin/psc): Show which systemd services own which processes.
+- [`push`](bin/push): Add all changes, commit with a message, and push to Git.
+- [`pwdname`](bin/pwdname): Print the name of the current working directory.
+- [`quotes`](bin/quotes): Fetch and display a random quote from ZenQuotes.
+- [`repos`](bin/repos): List your public GitHub repositories.
+- [`save`](bin/save): Automatically pull, add, commit, and push changes in a Git repo.
+- [`starred`](bin/starred): List your starred GitHub repositories.
+- [`sunrise`](bin/sunrise): Display a colorful, shifting rainbow effect in the terminal.
+- [`sysderrors`](bin/sysderrors): List all failed systemd units.
+- [`syserrors`](bin/syserrors): Show critical system errors from the current boot's journal.
+- [`t`](bin/t): Expand tabs in a file or input to 2 spaces.
+- [`tf`](bin/tf): A wrapper for the `terraform` command.
+- [`toemoji`](bin/toemoji): Replace specific keywords and symbols with emojis.
+- [`topdu`](bin/topdu): Show the top 11 largest files and folders in the current directory.
+- [`txt`](bin/txt): Convert documents to plain text using `pandoc`.
+- [`ucmt`](bin/ucmt): Uncomment lines by removing the first word/prefix.
+- [`urlencode`](bin/urlencode): URL-encode strings or lines of text.
+- [`v`](bin/v): Edit files and automatically rename the tmux window.
+- [`ver`](bin/ver): Print the current Bash version.
+- [`vis`](bin/vis): Open the source code of a system command in your editor.
+- [`wd`](bin/wd): Show the current and parent directory names.
+- [`which`](bin/which): A cheeky reminder to use `type -P` instead of `which`.
+- [`yqdiff`](bin/yqdiff): Compare two YAML files ignoring key order and comments.
+- [`yyy`](bin/yyy): Copy input to the clipboard while also echoing it to stdout.
+- [`zet`](bin/zet): Manage a Zettelkasten knowledge base (add/query notes).
