@@ -1,0 +1,6 @@
+#!/bin/sh
+if test -f AGENTS.md; then
+  exec gemini -i "Use the following as context for this session: $(cat AGENTS.md)"
+else
+  exec gemini
+fi
