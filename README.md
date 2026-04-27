@@ -21,7 +21,9 @@ A collection of personal scripts written to improve the management of my operati
 - [`fishies`](bin/fishies): Run `asciiquarium` in the terminal.
 - [`gcm`](bin/gcm): Generate a Git commit message using AI (GPT).
 - [`gdu`](bin/gdu): List all files in a Git repository sorted by size.
+- [`gem`](bin/gem): Start a Gemini CLI session with `AGENTS.md` context.
 - [`genpw`](bin/genpw): Generate a random ASCII password.
+- [`ghc`](bin/ghc): Start a GitHub Copilot CLI session with `AGENTS.md` context.
 - [`gists`](bin/gists): List your GitHub gists.
 - [`gitrepos`](bin/gitrepos): Find and list all Git repositories in subdirectories.
 - [`gl`](bin/gl): Display a compact, decorated Git log graph.
