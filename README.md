@@ -70,6 +70,7 @@ A collection of personal scripts written to improve the management of my operati
 - [`sysderrors`](bin/sysderrors): List all failed systemd units.
 - [`syserrors`](bin/syserrors): Show critical system errors from the current boot's journal.
 - [`t`](bin/t): Expand tabs in a file or input to 2 spaces.
+- [`tab`](bin/tab): Expand tabs in a file or input to 2 spaces.
 - [`tf`](bin/tf): A wrapper for the `terraform` command.
 - [`toemoji`](bin/toemoji): Replace specific keywords and symbols with emojis.
 - [`topdu`](bin/topdu): Show the top 11 largest files and folders in the current directory.
