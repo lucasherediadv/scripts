@@ -69,7 +69,7 @@ A collection of personal scripts written to improve the management of my operati
 - [`sunrise`](bin/sunrise): Display a colorful, shifting rainbow effect in the terminal.
 - [`sysderrors`](bin/sysderrors): List all failed systemd units.
 - [`syserrors`](bin/syserrors): Show critical system errors from the current boot's journal.
-- [`t`](bin/t): Expand tabs in a file or input to 2 spaces.
+- [`t`](bin/t): Start, attach, or detect an existing tmux session.
 - [`tab`](bin/tab): Expand tabs in a file or input to 2 spaces.
 - [`tf`](bin/tf): A wrapper for the `terraform` command.
 - [`toemoji`](bin/toemoji): Replace specific keywords and symbols with emojis.
