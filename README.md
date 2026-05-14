@@ -35,6 +35,7 @@ A collection of personal scripts written to improve the management of my operati
 - [`gpt`](bin/gpt): Query a LLM directly from the terminal using `mods`.
 - [`grepall`](bin/grepall): Recursively search for a pattern in all files, ignoring `.git`.
 - [`gs`](bin/gs): A shortcut for `git status`.
+- [`gss`](bin/gss): Show short-format Git status.
 - [`hasissue`](bin/hasissue): Search and filter GitHub issues by query and state.
 - [`htitle`](bin/htitle): Create a centered, horizontal rule title for comments.
 - [`ipa`](bin/ipa): Show IP addresses in a brief, colorized format.
