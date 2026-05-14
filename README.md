@@ -28,6 +28,7 @@ A collection of personal scripts written to improve the management of my operati
 - [`gists`](bin/gists): List your GitHub gists.
 - [`gitrepos`](bin/gitrepos): Find and list all Git repositories in subdirectories.
 - [`gl`](bin/gl): Display a compact, decorated Git log graph.
+- [`gm`](bin/gm): Create a Git commit.
 - [`gmi`](bin/gmi): Initialize a Go module with a path based on the current directory.
 - [`goclean`](bin/goclean): Clean Go build, module, and test caches.
 - [`goinstall`](bin/goinstall): Install a Go package with optimized static build flags.
