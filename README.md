@@ -19,6 +19,7 @@ A collection of personal scripts written to improve the management of my operati
 - [`echon`](bin/echon): Repeat a string multiple times without a newline.
 - [`extract`](bin/extract): Extract various archive formats (tar, zip, rar, etc.).
 - [`fishies`](bin/fishies): Run `asciiquarium` in the terminal.
+- [`ga`](bin/ga): Stage files for commit.
 - [`gcm`](bin/gcm): Generate a Git commit message using AI (GPT).
 - [`gdu`](bin/gdu): List all files in a Git repository sorted by size.
 - [`gem`](bin/gem): Start a Gemini CLI session with `AGENTS.md` context.
