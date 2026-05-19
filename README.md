@@ -59,6 +59,7 @@ A collection of personal scripts written to improve the management of my operati
 - [`newscript`](bin/newscript): Create a new executable script template in the collection.
 - [`newx`](bin/newx): Create, make executable, and edit a new script.
 - [`o`](bin/o): Run opencode in plan mode.
+- [`oc`](bin/oc): Continue a previous opencode plan agent session.
 - [`origins`](bin/origins): List all remote origin URLs for a Git repository.
 - [`path`](bin/path): Print the system `PATH` entries on separate lines.
 - [`pkglist`](bin/pkglist): List explicitly installed packages, excluding base system ones.
